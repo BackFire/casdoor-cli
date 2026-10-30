@@ -1,0 +1,8 @@
+{
+  "owner": "example-org",
+  "name": "alice",
+  "displayName": "Alice",
+  "type": "normal-user",
+  "email": "alice@example.com",
+  "signupApplication": "sso"
+}

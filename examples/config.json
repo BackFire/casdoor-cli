@@ -1,0 +1,11 @@
+{
+  "defaultProfile": "prod",
+  "profiles": {
+    "prod": {
+      "endpoint": "https://sso.example.com",
+      "clientId": "YOUR_CLIENT_ID",
+      "clientSecret": "YOUR_CLIENT_SECRET",
+      "owner": "example-org"
+    }
+  }
+}

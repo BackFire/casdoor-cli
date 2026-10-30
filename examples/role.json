@@ -1,0 +1,9 @@
+{
+  "owner": "example-org",
+  "name": "readers",
+  "displayName": "Readers",
+  "users": [],
+  "roles": [],
+  "domains": [],
+  "isEnabled": true
+}

@@ -1,0 +1,10 @@
+{
+  "owner": "admin",
+  "name": "example-app",
+  "displayName": "Example App",
+  "organization": "example-org",
+  "enablePassword": true,
+  "enableSignUp": false,
+  "redirectUris": ["https://app.example.com/callback"],
+  "providers": []
+}

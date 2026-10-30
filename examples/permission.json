@@ -1,0 +1,15 @@
+{
+  "owner": "example-org",
+  "name": "read-documents",
+  "displayName": "Read documents",
+  "users": [],
+  "roles": ["example-org/readers"],
+  "domains": [],
+  "model": "YOUR_EXISTING_MODEL",
+  "adapter": "YOUR_EXISTING_ADAPTER",
+  "resourceType": "YOUR_RESOURCE_TYPE",
+  "resources": ["documents"],
+  "actions": ["read"],
+  "effect": "Allow",
+  "isEnabled": true
+}
