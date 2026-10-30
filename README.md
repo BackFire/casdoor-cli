@@ -15,6 +15,17 @@ go build -trimpath -o bin/casdoor .
 
 可将 `bin/casdoor` 安装到 PATH 中。运行二进制不需要 Go。
 
+## Codex Skill
+
+仓库附带 [casdoor Skill](skills/casdoor/SKILL.md)。在本机将其链接到 Codex 全局 Skill 目录：
+
+```sh
+mkdir -p ~/.codex/skills
+ln -s "$PWD/skills/casdoor" ~/.codex/skills/casdoor
+```
+
+在仓库根目录执行，目标尚不存在时使用。新开 Codex 会话后，可直接说“查询 Casdoor 用户”或显式使用 `$casdoor`。无需修改全局 AGENTS.md 或 config.toml。Skill 中记录了本人的生产 profile 和 owner 约定，其他环境应按实际配置调整；凭据仍只保存在仓库外。
+
 ## 认证与配置
 
 在 Casdoor 管理后台「身份认证 → 应用」中查看 Client ID / Client Secret。使用应用凭据进行 HTTP Basic Auth，不需要浏览器登录态；访问范围由服务端给该应用授予的权限决定。生产旧版已实测 Basic Auth，新版可使用 Bearer Token；旧版 Bearer 支持取决于其实现。
